@@ -1,0 +1,26 @@
+/* link components */
+
+@import url("buttons.css");
+
+*{
+    padding: 20px;
+    margin: 20px;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+#chat{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#chat #image{
+    position:relative;
+}
+#chat #image1, #chat #image2, #chat #image3, #chat #image4, #chat #image5{
+    position:absolute;
+    visibility: hidden;
+}
